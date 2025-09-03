@@ -1,0 +1,42 @@
+# Historias de Usuario
+
+Este documento reúne las historias de usuario y criterios de aceptación definidos para el proyecto de la distribuidora.
+
+---
+
+## Historia 1 – Incluir Modalidad de Delivery a los Productos
+
+**Como cliente de la distribuidora**, quiero que la aplicación calcule automáticamente el costo de despacho a domicilio según el monto de mi compra y la distancia, para saber cuánto debo pagar y recibir mis productos sin complicaciones.
+
+**Criterios de aceptación:**
+- La aplicación debe aplicar las reglas de negocio:
+    - Compras ≥ $50.000: despacho gratuito dentro de 20 km.
+    - Compras entre $25.000 y $49.999: $150 por km.
+    - Compras < $25.000: $300 por km.
+- El usuario debe poder ingresar la distancia y el total de la compra.
+- La aplicación debe mostrar el costo total del despacho claramente.
+
+---
+
+## Historia 2 – Ingreso de Información de Vehículos de los Repartidores
+
+**Como administradora de la distribuidora**, quiero ingresar y guardar los datos de los vehículos de los repartidores (marca, modelo, cilindrada, tipo de combustible y capacidad de pasajeros), para tener un registro completo de los vehículos y organizar mejor las rutas de entrega.
+
+**Criterios de aceptación:**
+- La aplicación permite ingresar todos los datos del vehículo.
+- Se valida que la capacidad sea un número entero positivo.
+- Los datos ingresados se muestran correctamente en la consola.
+- La información puede ser consultada o utilizada en otros cálculos o funciones.
+
+---
+
+## Historia 3 – Registro de Usuarios mediante el Uso de sus Correos Gmail
+
+**Como clienta**, quiero registrarme en la aplicación usando mi cuenta de Gmail, para poder acceder fácilmente y realizar compras sin necesidad de crear un usuario nuevo.
+
+**Criterios de aceptación:**
+- La aplicación permite ingresar el correo de Gmail para registrarse.
+- Se valida que el correo tenga formato correcto.
+- El sistema confirma que el registro se realizó correctamente.
+
+
