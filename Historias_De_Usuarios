@@ -6,7 +6,8 @@ Este documento reúne las historias de usuario y criterios de aceptación defini
 
 ## Historia 1 – Incluir Modalidad de Delivery a los Productos
 
-**Como cliente de la distribuidora**, quiero que la aplicación calcule automáticamente el costo de despacho a domicilio según el monto de mi compra y la distancia, para saber cuánto debo pagar y recibir mis productos sin complicaciones.
+**Como cliente de la distribuidora**, quiero que la aplicación calcule automáticamente el costo de despacho a domicilio según 
+el monto de mi compra y la distancia, para saber cuánto debo pagar y recibir mis productos sin complicaciones.
 
 **Criterios de aceptación:**
 - La aplicación debe aplicar las reglas de negocio:
@@ -20,7 +21,9 @@ Este documento reúne las historias de usuario y criterios de aceptación defini
 
 ## Historia 2 – Ingreso de Información de Vehículos de los Repartidores
 
-**Como administradora de la distribuidora**, quiero ingresar y guardar los datos de los vehículos de los repartidores (marca, modelo, cilindrada, tipo de combustible y capacidad de pasajeros), para tener un registro completo de los vehículos y organizar mejor las rutas de entrega.
+**Como administradora de la distribuidora**, quiero ingresar y guardar los datos de los vehículos de los repartidores
+(marca, modelo, cilindrada, tipo de combustible y capacidad de pasajeros), para tener un registro completo de los vehículos y organizar 
+mejor las rutas de entrega.
 
 **Criterios de aceptación:**
 - La aplicación permite ingresar todos los datos del vehículo.
@@ -32,7 +35,8 @@ Este documento reúne las historias de usuario y criterios de aceptación defini
 
 ## Historia 3 – Registro de Usuarios mediante el Uso de sus Correos Gmail
 
-**Como clienta**, quiero registrarme en la aplicación usando mi cuenta de Gmail, para poder acceder fácilmente y realizar compras sin necesidad de crear un usuario nuevo.
+**Como clienta**, quiero registrarme en la aplicación usando mi cuenta de Gmail, para poder acceder fácilmente y realizar compras
+sin necesidad de crear un usuario nuevo.
 
 **Criterios de aceptación:**
 - La aplicación permite ingresar el correo de Gmail para registrarse.
